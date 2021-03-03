@@ -1,0 +1,18 @@
+<p>tableau des devises</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>code</th>
+            <th>name</th>
+            <th>change</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr *ngFor="let dev of tabDevise">
+                <td>{{dev.code}}</td>
+                <td>{{dev.name}}</td>
+                <td>{{dev.change}}</td>
+            </tr>
+    </tbody>
+</table> <br />
+

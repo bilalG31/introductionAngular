@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <!--
+    <app-header ></app-header>
+    <app-header [titre]="'super-titre'"></app-header>
+    <app-header titre='super-titre'></app-header>
+    -->
+    <app-header [titre]="title"></app-header>
+   <!--  <h3>welcome {{title}}</h3> -->
+
+   <router-outlet></router-outlet><!-- sera automatiquement remplacé par WelcomeComponent
+                                    ou BasicComponent ou LoginComponent 
+                                    selon route/pseudo-url courante-->
+   <!--
+    <app-basic></app-basic>
+    <app-login></app-login>
+   -->
+
+    <app-footer></app-footer>
+</div>
